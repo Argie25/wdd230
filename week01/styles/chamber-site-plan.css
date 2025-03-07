@@ -17,10 +17,10 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 500px;
-    /* background-color: var(--color-light); */
+    background-color: var(--color-light);
 }
 
-h2 {
+p {
     font-family: var(--font-primary);
     font-size: 1.5rem;
     color: var(--color-dark);
