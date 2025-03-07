@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    /* Color */
+    --color-main: #7886C7;
+    --color-secondary: #A9B5DF;
+    --color-dark: #2D336B;
+    --color-light: #FFF2F2;
+
+    /* Typography */
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Merriweather', serif;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 500px;
+    /* background-color: var(--color-light); */
+}
+
+h2 {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    color: var(--color-dark);
+    margin: 1rem 0;
+}
+
+p, button {
+    font-family: var(--font-secondary);
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+button {
+    height: 2rem;
+}
+
+#c1{
+    background-color: var(--color-main);
+}
+#c2{
+    background-color: var(--color-secondary);
+}   
+#c3{
+    background-color: var(--color-dark);
+}   
+#c4{
+    background-color: var(--color-light);
+}
+
