@@ -2,6 +2,7 @@
         main{
             display: grid;
             grid-template-columns: 2fr 1fr;
+            max-width: 1450px;
         }
 
         nav ul {
