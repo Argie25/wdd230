@@ -1,0 +1,205 @@
+
+:root {
+    /* Color */
+    --color-main: #7886C7;
+    --color-secondary: #A9B5DF;
+    --color-dark: #2D336B;
+    --color-light: #FFF2F2;
+
+    /* Typography */
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Merriweather', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 h2 h3 {
+    font-family: var(--font-primary);
+}
+
+p span {
+    font-family: var(--font-secondary);
+}
+
+
+body {
+    background-color: var(--color-light);
+}
+
+header {
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-dark);
+}
+
+.menu-toggle {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    z-index: 1000;
+}
+
+.nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: var(--color-dark);
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    z-index: 1001;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid var(--color-secondary);
+}
+
+.nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.nav ul li a:hover {
+    background: var(--color-main);
+}
+
+/* Show menu when active */
+.nav.active {
+    display: block;
+}
+
+/* Hero image */
+.hero {
+    background: url('../images/hero.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.hero-content {
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    font-family: var(--font-primary);
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-family: var(--font-secondary);
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: var(--color-main);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: var(--color-dark);
+}
+
+/* General Sections */
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+    font-size: 1.5rem;
+    color: var(--color-dark);
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: var(--color-main);
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Images */
+.event img,
+.weather img,
+.spotlight img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Spotlight Section */
+.spot1, .spot2 {
+    background: var(--color-secondary);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    background: var(--color-dark);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font-primary);
+}

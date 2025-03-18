@@ -1,0 +1,79 @@
+@media (min-width: 768px) {
+    .menu-toggle {
+        display: none; /* Hide hamburger menu */
+    }
+
+    .nav {
+        display: block;
+        position: static;
+        background: none;
+        box-shadow: none;
+        width: auto;
+    }
+
+    .nav ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    .nav ul li {
+        border-bottom: none;
+    }
+
+    .nav ul li a {
+        padding: 10px 15px;
+        font-size: 1rem;
+        color: var(--color-dark);
+    }
+
+    .hero {
+        height: 80vh;
+        padding: 150px 40px;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+    }
+
+    .cta-button {
+        padding: 12px 24px;
+        font-size: 1.1rem;
+    }
+
+    /* Layout Grid */
+    .event,
+    .weather {
+        text-align: center; 
+        max-width: 700px; 
+        margin: 20px auto;  
+    }
+
+    .event img,
+    .weather img {
+        display: block;
+        margin: 10px auto; 
+        max-width: 100%; 
+        border-radius: 10px; 
+    }
+
+    /* Spotlight Grid */
+    .spotlight {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .spotlight h2 {
+        grid-column: span 2;
+        text-align: center;
+    }
+
+    .spot1, .spot2 {
+        padding: 20px;
+    }
+
+}
