@@ -18,11 +18,19 @@
         }
 
 
-        h1{
+        h1, #card3 {
             grid-column: 1/3;
         }
 
-        #card1{
+        .hero {
+            grid-column: 1 / -1; /* Makes the hero section span all columns */
+            width: 100%;
+            height: auto;
+        }
+
+
+
+        #card1 {
             grid-column: 1/2;
         }
         #card2{

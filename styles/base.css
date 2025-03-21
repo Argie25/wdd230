@@ -113,3 +113,56 @@ footer {
 #menu.show {
     display: flex;
 }
+
+.hero{
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+#mode {
+    position: absolute;
+	top: 40px;
+	right: 30px;
+}
+
+#card3 {
+    align-items: center;
+    padding: 20px;
+}
+
+#card3 iframe {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#visits {
+	color: navy;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
