@@ -76,4 +76,25 @@
         padding: 20px;
     }
 
+    /* Discover Grid */
+    .discover {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+    }
+
+    .sidebar{
+        grid-column: 1/2;
+    }
+
+    .localPhotos {
+        grid-column: 2/3;
+    }
+
+    .localPhotos img {
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+
 }
