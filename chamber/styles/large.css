@@ -101,6 +101,10 @@
         transform: scale(1.1);
         filter: brightness(1.2);
     }
+
+    .discover h1{
+        grid-column: span 2;
+    }
     
 
 }

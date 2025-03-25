@@ -243,3 +243,7 @@ footer {
     font-family: var(--font-secondary);
     margin-top: 10px;
 }
+
+.discover h1{
+    text-align: center;
+}
