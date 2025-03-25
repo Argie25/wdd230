@@ -225,14 +225,21 @@ footer {
 .localPhotos figure {
     border: solid black 1px;
     border-radius: 10px;    
-    padding: 20px;
+    padding: 40px;
     margin: 10px;
     background-color: var(--color-secondary);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2)
 }
 
 .discover img{
-    width: 400px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
+    
+}
+
+.discover figcaption {
+    font-size: 1.2rem;
+    font-family: var(--font-secondary);
+    margin-top: 10px;
 }
