@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candelaria Chamber of Commerce</title>
+    <meta name="description" content="Empowering local businesses and fostering community growth.">
+    <meta name="author" content="Argie Dela Cruz">
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script defer src="scripts/index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Argie Dela Cruz - Candelaria Chamber of Commerance - Web Frontend Development">
+    <meta property="og:image" content="../images/profile.jpeg"> 
+    <meta property="og:url" content="https://argie25.github.io/wdd230/chamber/index.html">
+    <meta property="og:type" content="website">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">Candelaria</div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join Page</a></li>
+                <li><a href="#">Link four</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="join">
+    <form method="get" action="thankyou.html">
+        <div class="forms">
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label>
+                Applicant's First Name:
+                <input type="text" name="applicant_first_name" id="applicant_first_name" required>
+            </label>
+            <br>
+            
+            <label>
+                Applicant's Last Name:
+                <input type="text" name="applicant_last_name" id="applicant_last_name" required>
+            </label>
+            <br>
+            
+            <label>
+                Applicant's Title/Position:
+                <input type="text" name="applicant_title" id="applicant_title" pattern="[A-Za-z\-\s]{7,}">
+            </label>
+            <br>
+            
+            <label>
+                Email Address:
+                <input type="email" name="email" id="email" required placeholder="example@email.com">
+            </label>
+            <br>
+            
+            <label>
+                Mobile Phone Number:
+                <input type="tel" name="mobile_phone" id="mobile_phone" required>
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Business/Organization Information</legend>
+            <label>
+                Business/Organization Name:
+                <input type="text" name="business_name" id="business_name" required>
+            </label>
+            <br>
+            
+            <label>
+                Membership Level:
+                <select name="membership_level" id="membership_level">
+                    <option value="np">NP Membership (Non-Profit, No Fee)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+            <br>
+            
+            <label>
+                Business/Organization Description:
+                <textarea name="business_description" id="business_description"></textarea>
+            </label>
+        </fieldset>
+        <button type="submit">Submit Application</button>
+        </div>
+        
+        
+
+        <aside class="membership-benefits">
+            <h2>Membership Benefits</h2>
+        
+            <section class="membership-level">
+                <h3>NP Membership (Non-Profit, No Fee)</h3>
+                <ul>
+                    <li>Access to networking events</li>
+                    <li>Basic directory listing</li>
+                    <li>Community support opportunities</li>
+                </ul>
+            </section>
+        
+            <section class="membership-level">
+                <h3>Bronze Membership</h3>
+                <ul>
+                    <li>All NP benefits</li>
+                    <li>Priority directory listing</li>
+                    <li>Event discounts</li>
+                    <li>Access to member-only training</li>
+                </ul>
+            </section>
+        
+            <section class="membership-level">
+                <h3>Silver Membership</h3>
+                <ul>
+                    <li>All Bronze benefits</li>
+                    <li>Company spotlight on the homepage</li>
+                    <li>Increased advertising opportunities</li>
+                    <li>Exclusive chamber newsletters</li>
+                </ul>
+            </section>
+        
+            <section class="membership-level">
+                <h3>Gold Membership</h3>
+                <ul>
+                    <li>All Silver benefits</li>
+                    <li>Premium event sponsorship opportunities</li>
+                    <li>Featured business interviews</li>
+                    <li>VIP access to chamber events</li>
+                </ul>
+            </section>
+        </aside>
+        
+        
+
+    </form>
+
+    
+
+    
+</main>
+
+<footer>
+    <p> Argie Dela Cruz WDD 230</p>
+    <p>Last Modified: <span class="mod"></span></p>
+</footer>
+
+</body>
+</html>
