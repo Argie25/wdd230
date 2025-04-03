@@ -1,0 +1,28 @@
+{
+    "family": "Dela Cruz",
+    "moveDate": "2023-10-01",
+    "familyNumber" : 4,
+    "visitedByBishopric": true,
+    "individualNames": [
+        {
+            "name" : "Reynaldo Dela Cruz",
+            "gender" : "Male",
+            "birthDate" : "1985-05-15"
+        }, 
+        {
+            "name" : "Angie Dela Cruz",
+            "gender" : "Famale",
+            "birthDate" : "1984-05-15"
+        }, 
+        {
+            "name" : "Argie Dela Cruz",
+            "gender" : "Male",
+            "birthDate" : "2002-05-15"
+        }, 
+        {
+            "name" : "Regine Dela Cruz",
+            "gender" : "Famale",
+            "birthDate" : "2003-05-15"
+        }
+    ]
+}
