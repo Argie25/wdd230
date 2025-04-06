@@ -1,0 +1,85 @@
+{
+    "weeks": [
+        {
+            "week": "week1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/Argie-Dela-Cruz/pen/xbxdmbg",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "week2",
+            "links": [
+                {
+                    "url": "week02/bom.html",
+                    "title": "DOM Manipulation"
+                },
+                {
+                    "url": "week02/design.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/Argie-Dela-Cruz/pen/ogNGMWO",
+                    "title": "Responsive Menu"
+                }
+            ]
+        },
+        {
+            "week": "week3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Load"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "week": "week4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Argie-Dela-Cruz/pen/EaxpPqo?editors=1100",
+                    "title": "Pseudo-classes"
+                }
+            ]
+        },
+        {
+            "week": "week5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Argie-Dela-Cruz/pen/bNGOKWm?editors=1100",
+                    "title": "Pseudo-classes"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON Data"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}

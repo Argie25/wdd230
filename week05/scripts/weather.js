@@ -1,22 +1,8 @@
-const visitsDisplay = document.querySelector(".visits");
-
-let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
-
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
-};
-
-numVisits++;
-
-localStorage.setItem("numVisits-ls", numVisits);
-
 const curentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=15.62&lon=119.93&units=metric&appid=f31d9ebef780916b09ae9c50219af319';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=metric&appid=f31d9ebef780916b09ae9c50219af319';
 
 async function apiFetch() {
     try {
