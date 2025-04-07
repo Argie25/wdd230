@@ -276,6 +276,19 @@ input, select, textarea {
     border-radius: 5px;
 }
 
+.view-toggle {
+    display: flex;
+    justify-content: center ;
+    margin-top: 20px;
+}
+
+.view-toggle button {
+    color: black ;
+    font-size: larger;
+    width: 25%;
+    margin-top: 20px;
+}
+
 button {
     cursor: pointer;
     background: var(--color-main);
@@ -319,4 +332,10 @@ button:hover, button:focus {
 	display: none;
 }
 
+.member-list .member-card:nth-child(odd) {
+    background-color: var(--color-light); 
+}
 
+#members h3{
+    color: var(--color-dark);
+}

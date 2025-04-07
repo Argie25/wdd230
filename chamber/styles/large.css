@@ -117,11 +117,11 @@
     }
 
     .forms {
-        grid-template-columns: 1/2;
+        grid-template-columns: 1fr 2fr;
     }
 
     .membership-benefits {
-        grid-template-columns: 2/3;
+        grid-template-columns: 2fr 3fr;
     }
 
     #members {
