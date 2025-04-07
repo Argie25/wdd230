@@ -18,8 +18,8 @@ async function getMembers() {
       portrait.setAttribute('src', member.image);
       portrait.setAttribute('alt', `${member.name} - logo`);
       portrait.setAttribute('loading', 'lazy');
-      portrait.setAttribute('width', '340');
-      portrait.setAttribute('height', '440');
+      portrait.setAttribute('width', '240');
+      portrait.setAttribute('height', '340');
   
       const name = document.createElement("h3");
       name.textContent = member.name;
