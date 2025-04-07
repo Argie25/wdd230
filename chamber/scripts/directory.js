@@ -1,5 +1,5 @@
 const baseURL = "https://argie25.github.io/wdd230/";
-const membersURL = "https://argie25.github.io/wdd230/chamber/data/links.json";
+const membersURL = "https://argie25.github.io/wdd230/chamber/data/members.json";
 
 async function getMembers() {
     const response = await fetch(membersURL);
@@ -54,3 +54,5 @@ async function getMembers() {
   }
   
   getMembers();
+
+
