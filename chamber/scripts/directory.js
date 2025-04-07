@@ -14,10 +14,12 @@ async function getMembers() {
       const card = document.createElement("section");
       card.classList.add("member-card");
   
-      const img = document.createElement("img");
-      img.src = baseURL + "images/" + member.image;
-      img.alt = `${member.name} logo`;
-      img.loading = "lazy";
+      const portrait = document.createElement("img");
+      portrait.setAttribute('src', member.image);
+      portrait.setAttribute('alt', `${member.name} - logo`);
+      portrait.setAttribute('loading', 'lazy');
+      portrait.setAttribute('width', '340');
+      portrait.setAttribute('height', '440');
   
       const name = document.createElement("h3");
       name.textContent = member.name;
@@ -40,7 +42,8 @@ async function getMembers() {
       const description = document.createElement("p");
       description.textContent = member.description;
   
-      card.appendChild(img);
+      // Append elements to card
+      card.appendChild(portrait);
       card.appendChild(name);
       card.appendChild(address);
       card.appendChild(phone);
@@ -49,9 +52,11 @@ async function getMembers() {
       card.appendChild(hours);
       card.appendChild(description);
   
+      // Append card to container
       container.appendChild(card);
     });
   }
+  
   
   getMembers();
 
