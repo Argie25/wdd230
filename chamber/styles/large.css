@@ -124,7 +124,16 @@
         grid-template-columns: 2/3;
     }
 
-    
+    #members {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #members h2, div {
+        grid-column: span 3;
+        text-align: center;
+    }
+
 
 }
 

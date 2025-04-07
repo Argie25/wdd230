@@ -311,3 +311,12 @@ button:hover, button:focus {
     text-align: center;
 }
 
+#members {
+    text-align: center;
+}
+
+.member-list section img {
+	display: none;
+}
+
+
