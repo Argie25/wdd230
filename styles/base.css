@@ -45,6 +45,11 @@ header span {
     margin: 0; /* Override the global margin */
 }
 
+header img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 
 
 
@@ -139,6 +144,22 @@ footer {
     position: absolute;
 	top: 40px;
 	right: 30px;
+}
+
+.card {
+    font-size: large;
+    line-height: 30px;  
+}
+
+#card2 p {
+    padding: 10px;
+}
+
+#card2 figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #card3 {
