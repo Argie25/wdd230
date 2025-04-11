@@ -51,4 +51,24 @@
             position: static;
             flex-direction: row;
         }
+
+        form {
+            width: 80%;
+        }
+
+        input , button{
+            width: 50%;
+            border-radius: 5px;
+            margin: 10px 25%;
+        }
+
+        label, .rangeValue {
+            margin:0 25%;
+        }
+
+        fieldset {
+            margin: 0
+        }
+
+
     }

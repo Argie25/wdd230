@@ -83,6 +83,10 @@
         gap: 20px;
     }
 
+    #member-cards {
+        grid-column: span 3;
+    }
+
     .sidebar{
         grid-column: 1/2;
     }
