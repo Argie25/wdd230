@@ -399,4 +399,28 @@ button:hover, button:focus {
   .weather-card p {
     margin: 4px 0;
   }
+
+
+  /* SPOTLIGHT */
+
+  .spotlight-section {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .spotlight-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .spotlight-card img {
+    max-width: 100%;
+    height: auto;
+  }
   
